@@ -16,16 +16,18 @@ body {
     width: 640px;
     display: flex;
     flex-wrap: wrap;
+    border: 2px solid black;
+    user-select: none;
 }
 
 .grid {
-    width: 40px;
-    height: 40px;
+    width: 5px;
+    height: 5px;
     box-sizing: border-box;
-    border: 1px solid black;
+   
 }
 
-.grid:hover{
+.change-color {
     background-color: yellow;
 }
 
