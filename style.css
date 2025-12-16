@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.container {
+    width: 640px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid {
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.grid:hover{
+    background-color: yellow;
+}
+
